@@ -1,6 +1,3 @@
-#header {
-}
-
 #section1 {
   background-color: #bbc8ff;
   /* padding: 250px; */
@@ -11,18 +8,27 @@
   display: block;
   clear: both;
 }
-#section1 .txt_box {
-  width: 800px; /*미디어 쿼리에서 퍼센트로 바꾸기*/
-  padding-top: 60px;
-  margin-left: -20px;
+.finaly_firstbox {
+  width: 98%;
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  padding: 1rem 0 1.6rem 0;
+  margin: 0 auto;
 }
-#section1 .txt_box img {
-  width: 90%;
-  margin-left: 18%;
+.txt_box {
+  width: 66%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  background-image: url(../images/main_box.png);
+  height: 700px;
+  background-position: 50% center;
+  background-size: cover;
+  margin: 0 auto;
 }
 #section1 .txt {
-  margin-top: -65%;
-  margin-left: 35%;
+  padding-top: 8rem;
 }
 #section1 .txt h4 {
   font-size: 3.5rem;
@@ -30,13 +36,15 @@
 }
 #section1 .txt h3 {
   font-size: 4.8rem;
+  font-weight: 900;
   color: #fff;
   padding-top: 150px;
 }
 #section1 .name {
-  margin-top: 90px;
-  margin-left: 260px;
-  padding-bottom: 70px;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  width: 56%;
 }
 #section1 .name h2 {
   font-size: 5.5rem;
@@ -52,17 +60,23 @@
   display: block;
   clear: both;
 }
-#section2 .sec2_left {
-  float: left;
-  padding-top: 150px;
-  margin-left: 150px;
+.sec2_infor_finaly {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 8rem;
 }
-#section2 .sec2_left .sec2_name h1 {
+.sec2_left {
+  display: flex;
+  flex-flow: column;
+}
+.sec2_name h1 {
   font-size: 5.5rem;
   color: #333;
 }
 #section2 .sec2_left .contact {
-  margin-top: 200px;
+  margin-top: 9rem;
 }
 #section2 .sec2_left .contact h2 {
   font-size: 2.5rem;
@@ -70,67 +84,57 @@
   font-weight: 800;
   margin-bottom: 20px;
 }
-
-#section2 .sec2_right {
-  float: right;
-  padding-top: 380px;
-  margin-right: 50px;
+.sec2_right {
+  padding-top: 12rem;
 }
-#section2 .sec2_right p {
-  font-size: 1.2rem;
+.sec2_right p {
+  font-size: 1.5rem;
   font-weight: 900;
   color: rgb(213, 202, 231);
   margin-bottom: 15px;
 }
-
-#section2 .skill {
-  clear: both;
-  padding-top: 100px;
-  padding-left: 30px;
+.skill_box_final {
+  display: flex;
+  flex-flow: row;
+  gap: 0.1rem;
 }
-#section2 .skill h2 {
+.skill {
+  padding-top: 100px;
+}
+.skill h2 {
   font-size: 2rem;
   font-weight: 800;
   color: #333;
-  margin-left: 47px;
-  float: left;
 }
-#section2 .skill span {
+.skill span {
   display: block;
-  float: left;
   width: 200px;
   height: 2px;
   background-color: #e2cee9;
   margin-top: 23px;
   margin-left: 10px;
 }
-#section2 .skill_box {
-  margin-top: 50px;
-  float: left;
+.skill_box {
+  margin-top: 3.125rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
-#section2 .skill_box p {
-  margin-left: 50px;
+.skill_box p {
   font-size: 0.8rem;
   margin-bottom: 5px;
   font-family: "s-core-dream";
   color: #333;
 }
-#section2 .skill_box div {
+.skill_box div {
   margin-bottom: 35px;
 }
-#section2 .skill_box .skill_left {
-  float: left;
-}
-#section2 .skill_box .skill_right {
-  float: left;
-}
-#section2 .skill_box .none {
+.skill_box .none {
   background: #f4f4f5;
   height: 5px;
   margin-bottom: 1rem;
-  width: 500px;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 34.25rem;
 }
 #section2 .skill_box .none div {
   /* background: rgb(131, 81, 212); */
@@ -205,12 +209,12 @@
     width: 75%;
   }
 }
-
+/* 메인컨텐츠 웹쪽 */
 #section3 {
-  margin-top: 150px;
+  margin-top: 9rem;
 }
 #section3 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 25px;
   font-weight: 800;
   color: #333;
@@ -227,140 +231,98 @@
   font-size: 1.2rem;
   line-height: 40px;
   font-weight: 800;
-  margin-left: 8.4rem;
 }
 #section3 h2 {
   font-size: 3rem;
   color: #333;
   font-weight: 900;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
-#section3 h4 {
+.sunkist h4 {
   font-size: 3.6rem;
   font-weight: 800;
   color: #ddd;
   margin-bottom: 50px;
 }
-#section3 .sunkist {
+.sunkist {
   margin-top: 110px;
 }
-#section3 .sunkist h4 {
-  padding-left: 8.7rem;
-}
-#section3 .sunkist_left {
-  float: left;
-  width: 40%;
-  margin-left: 150px;
-}
-#section3 .sunkist_left img {
+.finaly_sunki {
   width: 100%;
+  display: flex;
+  flex-flow: column;
 }
-#section3 .sunkist_right {
-  float: right;
-  width: 40%;
-  padding-right: 50px;
-  margin-top: 10px;
+.sunkist_left {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
-#section3 .sunkist_right p {
-  margin-left: 100px;
+.sunkist_left img {
+  width: 50%;
 }
-#section3 .sunkist_right img {
+.sunkist_right {
+  display: flex;
+  flex-flow: column;
+  padding: 6rem;
+}
+.sunkist_right img {
   width: 75%;
   margin-top: 80px;
   margin-right: 30px;
-  float: right;
 }
-
-#section3 .starskin {
-  padding-top: 170px;
-  clear: both;
-}
-#section3 .starskin h4 {
-  text-align: right;
-}
-#section3 .starskin_left {
-  width: 45%;
-  float: left;
-  margin-left: 150px;
-  padding-top: 30px;
-}
-#section3 .starskin_left img {
-  width: 100%;
+/* 선키복제 */
+.sunkist2 {
   margin-top: 110px;
 }
-#section3 .starskin_left p {
-  margin-left: 10px;
-}
-#section3 .starskin_right {
-  width: 35%;
-  float: right;
-}
-#section3 .starskin_right img {
-  width: 100%;
-  margin-bottom: 280px;
-}
-#section3 .starskin_right img:last-child {
-  margin-bottom: 0;
-}
-
-#section3 .instax {
-  clear: both;
-  padding-top: 170px;
-}
-#section3 .instax_left {
-  float: left;
-}
-#section3 .instax_left img {
-  width: 90%;
-}
-#section3 .instax_right {
-  float: right;
-  padding: 300px 0;
-  margin-right: 70px;
-}
-#section3 .instax_right p {
-  margin-right: 150px;
-}
-
-#section3 .ezdance {
-  clear: both;
-  padding-top: 170px;
-}
-#section3 .ezdance h4 {
+.sunkist2 h4 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  color: #ddd;
+  margin-bottom: 50px;
   text-align: right;
-  padding-right: 5.2rem;
 }
-#section3 .ezdance_left {
-  float: left;
-  padding: 210px 0;
+.finaly_sunki2 {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
 }
-#section3 .ezdance_left p {
-  margin-left: 140px;
+.sunkist_left2 {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
-#section3 .ezdance_right {
-  float: right;
+.sunkist_left2 img {
+  width: 50%;
 }
-#section3 .ezdance_right img {
-  width: 90%;
+.sunkist_right2 {
+  display: flex;
+  flex-flow: column;
+  padding: 6rem;
 }
-
+.sunkist_right2 img {
+  width: 75%;
+  margin-top: 80px;
+  margin-right: 30px;
+}
+/* 선키복제끝 */
+/* 메인컨텐츠 웹쪽 */
 #section4 {
-  clear: both;
   padding-top: 200px;
-  position: relative;
 }
 #section4 h2 {
   font-size: 3rem;
   color: #333;
   font-weight: 900;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
 #section4 .graphic_box {
   margin-top: 70px;
+  display: flex;
+  flex-flow: wrap;
 }
 
 #section4 .graphic_box div img {
@@ -370,7 +332,6 @@
 #section4 .box {
   position: relative;
   overflow: hidden;
-  float: left;
   width: calc(100% / 3);
 }
 #section4 .box .box_hover {
@@ -462,323 +423,99 @@
   text-align: center;
   text-indent: -999999px;
 }
-
-#footer {
-}
-@media all and (max-width: 980px) {
-  body {
-    overflow-x: hidden;
+/* 반응형작업시작 */
+@media screen and (min-width: 1821px) and (max-width: 1875px) {
+  .finaly_firstbox {
+    padding: 6rem 0rem;
+    flex-flow: row;
   }
-  #wrap {
-    overflow-x: hidden;
-  }
-  #section1 .name {
-    margin-top: 90px;
-    margin-left: 172px;
-    padding-bottom: 70px;
-  }
-  #section2 .sec2_name {
-    margin-left: 172px;
-    margin-bottom: 100px;
-  }
-  #section2 .sec2_left .contact {
-    margin: auto;
-    margin-left: 147px;
-  }
-  #section2 .sec2_right {
-    float: right;
-    padding-top: 50px;
-    margin-right: 283px;
-    text-align: center;
-  }
-  #section2 .skill {
-    clear: both;
-    padding-top: 100px;
-    padding-left: 30px;
-    margin-left: 200px;
-  }
-  #section3 .sunkist_left {
-    float: left;
-    width: 40%;
-    margin-left: 70px;
-  }
-  #section3 .btn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #cbaad6;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 40px;
-    font-weight: 800;
-    margin-left: 103px;
-  }
-  #section3 .sunkist_right img {
-    width: 75%;
-    margin-right: 550px;
-    float: right;
-  }
-  #section3 .starskin h4 {
-    text-align: right;
-    margin-right: 30px;
-  }
-  #section3 .starskin_right img {
-    width: 90%;
-    margin-bottom: 280px;
-  }
-  #section3 .starskin .btn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #cbaad6;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 40px;
-    font-weight: 800;
-    margin-left: 11px;
-  }
-  #section3 h4 {
-    font-size: 3.6rem;
-    font-weight: 800;
-    color: #ddd;
-    margin-bottom: 50px;
-    margin-left: 15px;
-  }
-  #section3 .instax_left img {
-    width: 70%;
-  }
-  #section3 .instax_right {
-    float: right;
-    padding: 0 0;
-    margin-right: 0;
-  }
-  #section3 .instax .btn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #cbaad6;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 40px;
-    font-weight: 800;
-    margin-left: 11px;
-  }
-  #section3 .ezdance_left {
-    float: right;
-    padding: 210px 100px;
-  }
-  #section3 .ezdance h4 {
-    text-align: right;
-    margin-right: 25px;
-  }
-  #section3 .ezdance .btn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #cbaad6;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 40px;
-    font-weight: 800;
-    margin-left: 134px;
-  }
-  #section3 .ezdance_right img {
-    position: relative;
-    top: -489px;
+  .txt_box {
     width: 50%;
-  }
-}
-@media all and (min-width: 375px) and (max-width: 500px) {
-  body {
-  }
-  #wrap {
-    overflow-x: hidden;
-  }
-  #section1 {
-    background-color: #bbc8ff;
-    width: 100%;
+    height: 700px;
   }
   #section1 .txt {
-    margin-top: -31%;
-    margin-left: 18%;
-  }
-  #section1 .txt h4 {
-    font-size: 2.5rem;
-    color: #fff;
-  }
-  #section1 .txt h3 {
-    font-size: 2.5rem;
-    color: #fff;
-    position: relative;
-    right: 39px;
-  }
-  #section1 .name {
-    margin-top: 30px;
-    margin-left: 10px;
-    text-align: center;
-    padding-bottom: 70px;
+    padding-top: 8rem;
   }
   #section1 .name h2 {
-    font-size: 2.5rem;
-    color: #fff;
+    text-align: center;
+    font-size: 4.8rem;
   }
   #section1 .name h4 {
-    font-size: 2.5rem;
-    color: #fff;
-  }
-  #section1 .txt_box img {
-    width: 50%;
-    margin-left: 1%;
-  }
-  #section2 .sec2_name {
-    margin-left: 215px;
-    margin-bottom: 53px;
-  }
-  #section2 .sec2_right {
-    float: right;
-    padding-top: 50px;
-    margin-right: 6px;
     text-align: center;
+    font-size: 3.5rem;
   }
-  #section2 .sec2_left {
-    margin-left: -120px;
-  }
-  #section2 .sec2_left .sec2_name h1 {
-    font-size: 4rem;
-    color: #333;
-  }
-  #section2 .sec2_left .contact h2 {
-    font-size: 2rem;
-    color: #ddd;
-    font-weight: 800;
-    margin-bottom: 20px;
-  }
-  #section2 .skill h2 {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #333;
-    margin-left: -218px;
-    float: left;
-  }
-  #section2 .skill span {
-    display: block;
-    float: left;
-    width: 200px;
-    height: 2px;
-    background-color: #e2cee9;
-    margin-top: 15px;
-    margin-left: -90px;
-  }
-  #section2 .skill_box {
-    margin-top: 50px;
-    float: left;
-    position: relative;
-    right: 274px;
-  }
-  #section2 .skill_box .none {
-    background: #f4f4f5;
-    height: 5px;
-    margin-bottom: 1rem;
-    width: 362px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  #section3 h4 {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #ddd;
-    margin-bottom: 50px;
-    margin-left: 15px;
-  }
-  #section3 .sunkist_right {
-    float: right;
-    width: 40%;
-    padding-right: 50px;
-    margin-top: 10px;
-    margin-right: 203px;
-  }
-  #section3 .sunkist_right p {
-    margin-left: 100px;
-    width: 175px;
-  }
-  #section3 .btn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #cbaad6;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 40px;
-    font-weight: 800;
-    margin-left: 96px;
-  }
-  #section3 .starskin {
-    padding-top: 35px;
-    clear: both;
-  }
-  #section3 .starskin_right img {
-    width: 90%;
-    margin-bottom: 28px;
-  }
-  #section3 .instax_left img {
-    width: 70%;
-    margin-left: 15px;
-  }
-  #section3 .instax_right {
-    float: right;
-    padding: 0 0;
-    margin-right: 74px;
-  }
-  #section3 .instax .btn {
-    display: block;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #cbaad6;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 40px;
-    font-weight: 800;
-    margin-left: -3px;
-  }
-  #section3 .ezdance_right img {
-    position: relative;
-    top: -666px;
-    width: 52%;
-  }
-  #section3 .ezdance_left {
-    float: right;
-    padding: 217px 38px;
-  }
-  #section4 .box .box_hover h3 {
-    display: none;
-  }
-  .pop img {
-    width: 50%;
-  }
-  .pop .outline {
-    width: 100%;
-    /* margin: 0 auto; */
-    /* background-color: #fff; */
-    margin-top: 50%;
-    text-align: center;
-    height: 100%;
+  #section1 .name {
+    justify-content: center;
   }
 }
+@media screen and (min-width: 1601px) and (max-width: 1820px) {
+  .finaly_firstbox {
+    padding: 6rem 0rem;
+    flex-flow: row;
+  }
+  .txt_box {
+    width: 50%;
+    height: 700px;
+  }
+  #section1 .txt {
+    padding-top: 8rem;
+  }
+  #section1 .name h2 {
+    text-align: center;
+    font-size: 4.8rem;
+  }
+  #section1 .name h4 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  #section1 .name {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .finaly_firstbox {
+    padding: 10rem 0rem;
+    flex-flow: row;
+    gap: 2rem;
+  }
+  .txt_box {
+    width: 66%;
+    height: 574px;
+  }
+  #section1 .txt {
+    padding-top: 6rem;
+  }
+  #section1 .txt h4 {
+    font-size: 3rem;
+  }
+  #section1 .txt h3 {
+    font-size: 4rem;
+  }
+  #section1 .name h2 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  #section1 .name h4 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  #section1 .name {
+    justify-content: center;
+  }
+  .skill_box .none {
+    width: 24.25rem;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 800px) and (max-width: 979px) {
+}
+@media screen and (min-width: 680px) and (max-width: 799px) {
+}
+@media screen and (min-width: 500px) and (max-width: 679px) {
+}
+@media screen and (min-width: 400px) and (max-width: 499px) {
+}
+@media screen and (min-width: 350px) and (max-width: 399px) {
+}
+/* 반응형작업끝 */
