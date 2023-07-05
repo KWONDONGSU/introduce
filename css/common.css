@@ -14,9 +14,14 @@ font-family: 'Galada', cursive; */
 /* @font-face { font-family : font_gothic;    
                 src : url(http://uhbee.com/nanum.eot) ; }   */
 
-@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
-@import url("S-Core-Dream-light/s-core-dream.css");
-
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
