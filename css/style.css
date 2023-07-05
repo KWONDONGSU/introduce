@@ -514,25 +514,28 @@
 }
 @media screen and (min-width: 980px) and (max-width: 1199px) {
   .finaly_firstbox {
-    padding: 10rem 0rem;
+    padding: 5rem 0rem;
     flex-flow: row;
     gap: 2rem;
   }
   .txt_box {
+    width: 50%;
     background-image: none;
   }
   #section1 .txt {
-    padding-top: 6rem;
+    padding-top: 15rem;
+    text-align: center;
   }
   #section1 .txt h4 {
     font-size: 3rem;
   }
   #section1 .txt h3 {
-    font-size: 4rem;
+    font-size: 3rem;
+    padding-top: 8px;
   }
   #section1 .name h2 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   #section1 .name h4 {
     text-align: center;
@@ -540,6 +543,7 @@
   }
   #section1 .name {
     justify-content: center;
+    width: 50%;
   }
   .skill_box .none {
     width: 24.25rem;
