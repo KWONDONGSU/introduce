@@ -93,13 +93,28 @@ body {
   }
 }
 @media screen and (min-width: 800px) and (max-width: 979px) {
+  .inner {
+    max-width: 95%;
+  }
 }
 @media screen and (min-width: 680px) and (max-width: 799px) {
+  .inner {
+    max-width: 95%;
+  }
 }
 @media screen and (min-width: 500px) and (max-width: 679px) {
+  .inner {
+    max-width: 95%;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 499px) {
+  .inner {
+    max-width: 95%;
+  }
 }
 @media screen and (min-width: 350px) and (max-width: 399px) {
+  .inner {
+    max-width: 95%;
+  }
 }
 /* 반응형작업끝 */
