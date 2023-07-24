@@ -296,12 +296,12 @@
   flex-flow: row;
   justify-content: space-between;
 }
-.flex_finalbox_1{
+.flex_finalbox_1 {
   display: flex;
   flex-flow: column;
   padding: 6rem;
 }
-.flex_finalbox_2{
+.flex_finalbox_2 {
   display: flex;
   flex-flow: column;
   padding: 6rem;
@@ -397,6 +397,7 @@
   overflow: scroll;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
+  overflow-x: hidden;
 }
 .pop .outline {
   width: 100%;
@@ -596,59 +597,59 @@
   .sec2_infor_finaly {
     flex-flow: column;
     padding-top: 6rem;
-}
-.sec2_name{
-  text-align: center;
-}
-#section2 .sec2_left .contact {
-  text-align: center;
-  margin-top: 3rem;
-}
-.sec2_right {
-  text-align: center;
-  padding-top: 3rem;
-}
-#section3 {
-  margin-top: 5rem;
-}
-.sunkist {
-  margin-top: 68px;
-}
-.sunkist h4 {
-  text-align: center;
-  margin-top: 120px;
-}
-.sunkic_img {
-  width: 90%;
-  margin: 0 auto;
-}
-.sunkist_left {
-  flex-flow: column;
-}
-.flex_finalbox_1 {
-  flex-flow: row;
-  justify-content: space-around;
-}
-#section3 .btn {
-  margin-block: auto;
-}
-.sunkist2 h4 {
-  text-align: center;
-}
-.sunkist_left2 {
-  flex-flow: column-reverse;
-}
-.sunkic_img2 {
-  width: 90%;
-  margin: 0 auto;
-}
-.flex_finalbox_2 {
-  flex-flow: row;
-  justify-content: space-around;
-}
-.sunkist2 {
-  margin-top: 0;
-}
+  }
+  .sec2_name {
+    text-align: center;
+  }
+  #section2 .sec2_left .contact {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .sec2_right {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  #section3 {
+    margin-top: 5rem;
+  }
+  .sunkist {
+    margin-top: 68px;
+  }
+  .sunkist h4 {
+    text-align: center;
+    margin-top: 120px;
+  }
+  .sunkic_img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sunkist_left {
+    flex-flow: column;
+  }
+  .flex_finalbox_1 {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+  #section3 .btn {
+    margin-block: auto;
+  }
+  .sunkist2 h4 {
+    text-align: center;
+  }
+  .sunkist_left2 {
+    flex-flow: column-reverse;
+  }
+  .sunkic_img2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex_finalbox_2 {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+  .sunkist2 {
+    margin-top: 0;
+  }
 }
 @media screen and (min-width: 680px) and (max-width: 799px) {
   .finaly_firstbox {
@@ -689,59 +690,59 @@
   .sec2_infor_finaly {
     flex-flow: column;
     padding-top: 6rem;
-}
-.sec2_name{
-  text-align: center;
-}
-#section2 .sec2_left .contact {
-  text-align: center;
-  margin-top: 3rem;
-}
-.sec2_right {
-  text-align: center;
-  padding-top: 3rem;
-}
-#section3 {
-  margin-top: 5rem;
-}
-.sunkist {
-  margin-top: 68px;
-}
-.sunkist h4 {
-  text-align: center;
-  margin-top: 120px;
-}
-.sunkic_img {
-  width: 90%;
-  margin: 0 auto;
-}
-.sunkist_left {
-  flex-flow: column;
-}
-.flex_finalbox_1 {
-  flex-flow: row;
-  justify-content: space-around;
-}
-#section3 .btn {
-  margin-block: auto;
-}
-.sunkist2 h4 {
-  text-align: center;
-}
-.sunkist_left2 {
-  flex-flow: column-reverse;
-}
-.sunkic_img2 {
-  width: 90%;
-  margin: 0 auto;
-}
-.flex_finalbox_2 {
-  flex-flow: row;
-  justify-content: space-around;
-}
-.sunkist2 {
-  margin-top: 0;
-}
+  }
+  .sec2_name {
+    text-align: center;
+  }
+  #section2 .sec2_left .contact {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .sec2_right {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  #section3 {
+    margin-top: 5rem;
+  }
+  .sunkist {
+    margin-top: 68px;
+  }
+  .sunkist h4 {
+    text-align: center;
+    margin-top: 120px;
+  }
+  .sunkic_img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sunkist_left {
+    flex-flow: column;
+  }
+  .flex_finalbox_1 {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+  #section3 .btn {
+    margin-block: auto;
+  }
+  .sunkist2 h4 {
+    text-align: center;
+  }
+  .sunkist_left2 {
+    flex-flow: column-reverse;
+  }
+  .sunkic_img2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex_finalbox_2 {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+  .sunkist2 {
+    margin-top: 0;
+  }
 }
 @media screen and (min-width: 500px) and (max-width: 679px) {
   .finaly_firstbox {
@@ -782,73 +783,73 @@
   .sec2_infor_finaly {
     flex-flow: column;
     padding-top: 6rem;
-}
-.sec2_name{
-  text-align: center;
-}
-#section2 .sec2_left .contact {
-  text-align: center;
-  margin-top: 3rem;
-}
-.sec2_right {
-  text-align: center;
-  padding-top: 3rem;
-}
-#section3 {
-  margin-top: 5rem;
-}
-.sunkist {
-  margin-top: 68px;
-}
-.sunkist h4 {
-  text-align: center;
-  margin-top: 0;
-  font-size: 3rem;
-}
-.sunkic_img {
-  width: 90%;
-  margin: 0 auto;
-}
-.sunkist_left {
-  flex-flow: column;
-}
-.flex_finalbox_1 {
-  flex-flow: row;
-  justify-content: space-around;
-  padding: 6rem 0rem;
-}
-#section3 .btn {
-  margin-block: auto;
-}
-.sunkist2 h4 {
-  text-align: center;
-  font-size: 3rem;
-}
-.sunkist_left2 {
-  flex-flow: column-reverse;
-}
-.sunkic_img2 {
-  width: 90%;
-  margin: 0 auto;
-}
-.flex_finalbox_2 {
-  flex-flow: row;
-  justify-content: space-around;
-  padding: 6rem 0rem;
-}
-.sunkist2 {
-  margin-top: 0;
-}
-#section4 .box .box_hover h3 {
-  font-size: 1rem;
-}
-.pop img {
-  width: 100%;
-  padding-top: 11rem;
-}
-#section4 {
-  padding-top: 0rem;
-}
+  }
+  .sec2_name {
+    text-align: center;
+  }
+  #section2 .sec2_left .contact {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .sec2_right {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  #section3 {
+    margin-top: 5rem;
+  }
+  .sunkist {
+    margin-top: 68px;
+  }
+  .sunkist h4 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  .sunkic_img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sunkist_left {
+    flex-flow: column;
+  }
+  .flex_finalbox_1 {
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 6rem 0rem;
+  }
+  #section3 .btn {
+    margin-block: auto;
+  }
+  .sunkist2 h4 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .sunkist_left2 {
+    flex-flow: column-reverse;
+  }
+  .sunkic_img2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flex_finalbox_2 {
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 6rem 0rem;
+  }
+  .sunkist2 {
+    margin-top: 0;
+  }
+  #section4 .box .box_hover h3 {
+    font-size: 1rem;
+  }
+  .pop img {
+    width: 100%;
+    padding-top: 11rem;
+  }
+  #section4 {
+    padding-top: 0rem;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 499px) {
 }
