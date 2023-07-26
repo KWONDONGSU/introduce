@@ -1,34 +1,37 @@
 #section1 {
-  background-color: #bbc8ff;
+  background-color: #bae3d4;
   /* padding: 250px; */
-  width: 100%;
+  width: 100%; 
 }
 #section1::after {
   content: "";
   display: block;
   clear: both;
 }
+.finaly_firstbox0 {
+  display: flex;
+  flex-flow: row;
+  padding: 4rem 0rem;
+}
 .finaly_firstbox {
-  width: 98%;
+  width: 55%;
   display: flex;
   flex-flow: column;
   gap: 2rem;
-  padding: 1rem 0 1.6rem 0;
   margin: 0 auto;
 }
 .txt_box {
-  width: 66%;
+  width: 100%;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   background-image: url(../images/main_box.png);
-  height: 700px;
+  height: 608px;
   background-position: 50% center;
   background-size: cover;
-  margin: 0 auto;
 }
 #section1 .txt {
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 #section1 .txt h4 {
   font-size: 3.5rem;
@@ -44,10 +47,9 @@
   display: flex;
   flex-flow: column;
   margin: 0 auto;
-  width: 56%;
 }
 #section1 .name h2 {
-  font-size: 5.5rem;
+  font-size: 4.3rem;
   color: #fff;
 }
 #section1 .name h4 {
@@ -90,8 +92,8 @@
 .sec2_right p {
   font-size: 1.5rem;
   font-weight: 900;
-  color: rgb(213, 202, 231);
   margin-bottom: 15px;
+  color: #95c3b2;
 }
 .skill_box_final {
   display: flex;
@@ -110,7 +112,7 @@
   display: block;
   width: 200px;
   height: 2px;
-  background-color: #e2cee9;
+  background-color: #6ebb9e;
   margin-top: 23px;
   margin-left: 10px;
 }
@@ -138,7 +140,7 @@
 }
 #section2 .skill_box .none div {
   /* background: rgb(131, 81, 212); */
-  background: linear-gradient(to right, #f8d5c5, #c997db);
+  background: linear-gradient(to right, #c2f1df, #328d6a);
   height: 5px;
   margin-bottom: 0;
 }
@@ -224,7 +226,7 @@
   width: 100px;
   height: 40px;
   border-radius: 50px;
-  background-color: #cbaad6;
+  background-color: #69d1aa;
   box-shadow: 5px 5px 5px 1px rgb(0 0 0 / 20%);
   text-align: center;
   color: #fff;
@@ -440,157 +442,191 @@
 }
 /* 반응형작업시작 */
 @media screen and (min-width: 1821px) and (max-width: 1875px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 6rem 0rem;
-    flex-flow: row;
+    width: 45%;
+    padding: 0;
+    flex-flow: column;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 0rem;
+}
   .txt_box {
-    width: 50%;
-    height: 700px;
+    width: 100%;
+    height: 602px;
   }
   #section1 .txt {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
   #section1 .name h2 {
     text-align: center;
     font-size: 4.8rem;
   }
   #section1 .name h4 {
-    text-align: center;
+    text-align: left;
     font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
   }
+  /* 1번페이지 */
 }
 @media screen and (min-width: 1601px) and (max-width: 1820px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 6rem 0rem;
-    flex-flow: row;
+    width: 45%;
+    padding: 0;
+    flex-flow: column;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 0rem;
+}
   .txt_box {
-    width: 50%;
-    height: 700px;
+    width: 100%;
+    height: 602px;
   }
   #section1 .txt {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
   #section1 .name h2 {
     text-align: center;
     font-size: 4.8rem;
   }
   #section1 .name h4 {
-    text-align: center;
+    text-align: left;
     font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
   }
+  /* 1번페이지 */
 }
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 10rem 0rem;
-    flex-flow: row;
-    gap: 2rem;
+    width: 70%;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 0rem;
+}
   .txt_box {
-    width: 66%;
-    height: 574px;
+    width: 100%;
+    height: 602px;
   }
   #section1 .txt {
-    padding-top: 6rem;
-  }
-  #section1 .txt h4 {
-    font-size: 3rem;
-  }
-  #section1 .txt h3 {
-    font-size: 4rem;
+    padding-top: 7rem;
   }
   #section1 .name h2 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 4.8rem;
   }
   #section1 .name h4 {
-    text-align: center;
-    font-size: 3rem;
+    text-align: left;
+    font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
   }
+  #section1 .txt h4 {
+    font-size: 2.9rem;
+}
+#section1 .txt h3 {
+  font-size: 4.2rem;
+}
+  /* 1번페이지 */
   .skill_box .none {
     width: 24.25rem;
   }
 }
 @media screen and (min-width: 980px) and (max-width: 1199px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 5rem 0rem;
-    flex-flow: row;
-    gap: 2rem;
+    width: 85%;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 0rem;
+}
   .txt_box {
-    width: 50%;
-    background-image: none;
+    width: 100%;
+    height: 575px;
   }
   #section1 .txt {
-    padding-top: 15rem;
-    text-align: center;
-  }
-  #section1 .txt h4 {
-    font-size: 3rem;
-  }
-  #section1 .txt h3 {
-    font-size: 3rem;
-    padding-top: 8px;
+    padding-top: 7rem;
   }
   #section1 .name h2 {
-    text-align: center;
-    font-size: 3rem;
+    text-align: left;
+    font-size: 3.8rem;
   }
   #section1 .name h4 {
-    text-align: center;
-    font-size: 3rem;
+    text-align: left;
+    font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
-    width: 50%;
   }
+  #section1 .txt h4 {
+    font-size: 2.9rem;
+}
+  #section1 .txt h3 {
+  font-size: 4.2rem;
+}
+  /* 1번페이지 */
   .skill_box .none {
     width: 24.25rem;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 979px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 5rem 0rem;
-    flex-flow: row;
-    gap: 2rem;
+    width: 85%;
+    justify-content: center;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 0rem;
+}
   .txt_box {
-    width: 50%;
+    width: 100%;
+    height: 16rem;
+    flex-flow: column;
     background-image: none;
   }
   #section1 .txt {
-    padding-top: 15rem;
-    text-align: center;
-  }
-  #section1 .txt h4 {
-    font-size: 3rem;
-  }
-  #section1 .txt h3 {
-    font-size: 3rem;
-    padding-top: 8px;
+    padding-top: 0;
   }
   #section1 .name h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
   #section1 .name h4 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
-    width: 50%;
   }
+  #section1 .txt h4 {
+    font-size: 2.9rem;
+    text-align: center;
+}
+  #section1 .txt h3 {
+    font-size: 4.2rem;
+    padding-top: 0;
+    text-align: center;
+}
+  .rive_anibox{
+    width: 480px;
+  }
+  /* 1번페이지 */
   .skill_box .none {
     width: 22.25rem;
   }
@@ -652,40 +688,52 @@
   }
 }
 @media screen and (min-width: 680px) and (max-width: 799px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 5rem 0rem;
-    flex-flow: row;
-    gap: 2rem;
+    width: 85%;
+    justify-content: center;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: row;
+    padding: 2rem 0rem;
+}
   .txt_box {
-    width: 50%;
+    width: 100%;
+    height: 16rem;
+    flex-flow: column;
     background-image: none;
   }
   #section1 .txt {
-    padding-top: 15rem;
-    text-align: center;
-  }
-  #section1 .txt h4 {
-    font-size: 3rem;
-  }
-  #section1 .txt h3 {
-    font-size: 3rem;
-    padding-top: 8px;
+    padding-top: 0;
   }
   #section1 .name h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   #section1 .name h4 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
-    width: 50%;
   }
+  #section1 .txt h4 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+  #section1 .txt h3 {
+    font-size: 3.5rem;
+    padding-top: 0;
+    text-align: center;
+}
+  .rive_anibox{
+    width: 289px;
+    height: 787px;
+  }
+  /* 1번페이지 */
   .skill_box .none {
-    width: 22.25rem;
+    width: 19.25rem;
   }
   .sec2_infor_finaly {
     flex-flow: column;
@@ -745,38 +793,51 @@
   }
 }
 @media screen and (min-width: 500px) and (max-width: 679px) {
+  /* 1번페이지 */
   .finaly_firstbox {
-    padding: 5rem 0rem;
-    flex-flow: row;
-    gap: 2rem;
+    width: 85%;
+    justify-content: center;
   }
+  .finaly_firstbox0 {
+    display: flex;
+    flex-flow: column;
+    padding: 3rem 0rem;
+}
   .txt_box {
-    width: 50%;
+    width: 100%;
+    height: 16rem;
+    flex-flow: column;
     background-image: none;
   }
   #section1 .txt {
-    padding-top: 15rem;
-    text-align: center;
-  }
-  #section1 .txt h4 {
-    font-size: 3rem;
-  }
-  #section1 .txt h3 {
-    font-size: 2rem;
-    padding-top: 8px;
+    padding-top: 0;
   }
   #section1 .name h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   #section1 .name h4 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   #section1 .name {
     justify-content: center;
-    width: 50%;
   }
+  #section1 .txt h4 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+  #section1 .txt h3 {
+    font-size: 3.5rem;
+    padding-top: 0;
+    text-align: center;
+}
+  .rive_anibox{
+    width: 370px;
+    height: 362px;
+    margin: 0 auto;
+  }
+  /* 1번페이지 */
   .skill_box .none {
     width: 13.25rem;
   }
