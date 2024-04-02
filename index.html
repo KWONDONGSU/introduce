@@ -10,6 +10,16 @@
 <script src="js/main.js" type="text/javascript">
     </script>
 </head>
+<script>
+	viewport = document.querySelector("meta[name=viewport]");
+	
+	if(screen.width < 480){
+	
+	   let temp = (1/480)*(screen.width);
+	   console.log(temp);
+	   viewport.setAttribute('content', 'width=device-width, initial-scale='+temp+', maximum-scale='+temp+', user-scalable=0');
+	}
+  </script>
 <body>
 <header id="header"></header>
 <div id="wrap">
@@ -19,7 +29,7 @@
 		<div class="finaly_firstbox">
 			<div class="txt_box">
 				<div class="txt">
-					<h4>2023</h4>
+					<h4>2024</h4>
 					<h4>WEB</h4>
 					<h4>NEW-DESIGN</h4>
 					<h3>PORTFOLIO</h3>
