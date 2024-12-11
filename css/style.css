@@ -32,9 +32,9 @@
 }
 #section1 .txt {
   padding-top: 5rem;
-  animation-duration: 3s;
-  animation: fadein 5s ease 3s;
-  -webkit-animation: fadein 3s;
+  animation-duration: 5s;
+  animation: fadein 7s ease 5s;
+  -webkit-animation: fadein 5s;
   animation-iteration-count: 1;
 }
 @keyframes fadein {
