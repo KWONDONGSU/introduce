@@ -35,7 +35,7 @@
   animation-duration: 3s;
   animation: fadein 5s ease 3s;
   -webkit-animation: fadein 3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 @keyframes fadein {
   from {
