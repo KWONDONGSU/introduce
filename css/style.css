@@ -94,19 +94,30 @@
   font-weight: 900;
   margin-bottom: 15px;
   animation-duration: 3s;
-  animation-name: fadein;
+  animation: fadein 5s ease 3s;
+  -webkit-animation: fadein 3s;
   animation-iteration-count: infinite;
   color: #95c3b2;
 }
 @keyframes fadein {
   from {
-    margin-left: 100%;
-    width: 300%;
+    opacity: 0;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 .skill_box_final {
